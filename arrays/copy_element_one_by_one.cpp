@@ -1,3 +1,14 @@
+/*
+    Problem: Copy one array into another array
+
+    Time Complexity: O(n)
+    Space Complexity: O(n)
+
+    Explanation:
+    - We iterate through the array once (n elements)
+    - We use an extra array of size n to store copied values
+*/
+
 #include<iostream>
 using namespace std;
 int main()
