@@ -1,3 +1,11 @@
+// Time Complexity: O(n)
+// Space Complexity: O(1)
+
+// Explanation:
+// - We traverse the array once (n elements) → O(n)
+// - For each element, only constant time operations are performed
+//   (modulus, division, addition, comparison) → O(1)
+// - No extra data structures are used, only a few variables → O(1) space
 #include<iostream>
 using namespace std;
 int main()

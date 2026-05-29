@@ -6,10 +6,10 @@ int main()
     bool prime=true;
     if (n<=1)
         {
-        prime=false;
+    prime=false;
         }
-
-        else{    
+    else
+    {
     for(int i=2;i<n;i++)
     {
         if(n%i==0)
